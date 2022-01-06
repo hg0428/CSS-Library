@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>CSS</title>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/stackoverflow-light.min.css">
+   </head>
+   <body>
+      <p>&nbsp;</p>
+      <div class="content">
+         <h2 class="title">To use:</h2>
+         <p>Simply copy and paste the following link in the <code>&lt;head&gt;</code> tags:</p>
+         <div class="container">
+            <input class="link" readonly="readonly" type="text" value="&lt;link href=&quot;https://easycss.bookie0.repl.co/style.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;" />
+            <p id="copy-text">Copy</p>
+            <p id="copied-text">Copied!</p>
+         </div>
+         <h2 class="title">Headers</h2>
+         <h1>World hello!</h1>
+         <h2>World hello!</h2>
+         <h3>World hello!</h3>
+         <h4>World hello!</h4>
+         <h5>World hello!</h5>
+         <h6>World hello!</h6>
+         <pre><code class="language-html">&lt;h1&gt;Header 1&lt;/h1&gt;
+
+&lt;h2&gt;Header 2&lt;/h2&gt;
+
+&lt;h3&gt;Header 3&lt;/h3&gt;
+
+&lt;h4&gt;Header 4&lt;/h4&gt;
+
+&lt;h5&gt;Header 5&lt;/h5&gt;
+
+&lt;h6&gt;Header 6&lt;/h6&gt;</code></pre>
+         <h2 class="title">Text</h2>
+         <p>This is some text. Since I don't know what else to put here, here's your favorite text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris cursus mattis molestie a iaculis at. Imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper.</p>
+         Subtitles are a little lighter! <strong>Be bold!</strong> <em>Be italic!</em> <u>Be underlined!</u> <s>Be strikethroughed!</s>
+         <pre><code class="language-html">&lt;p&gt;Paragraph&lt;/p&gt;
+
+&lt;p class="subtitle"&gt;Subtitle&lt;/p&gt;
+
+&lt;b&gt;Bold&lt;/b&gt;
+
+&lt;i&gt;Italic&lt;/i&gt;
+
+&lt;u&gt;Underline&lt;/u&gt;
+
+&lt;s&gt;Strikethrough&lt;/s&gt;</code></pre>
+         <h2 class="title">Quotes</h2>
+         <blockquote>
+            <p>I'm not superstitious, but I am a little stitious.</p>
+            <cite>Michael Scott, <em>The Office</em></cite>
+         </blockquote>
+         <pre><code class="language-html">&lt;blockquote&gt;&lt;p&gt;Quote&lt;/p&gt;&lt;cite&gt;Author, &lt;i&gt;Work&lt;/i&gt;&lt;/cite&gt;&lt;/blockquote&gt;</code></pre>
+         <h2 class="title">Images &amp; captions</h2>
+         <img src="/Pic.jpeg" />Yellowstone National Park
+         <pre><code class="language-html">&lt;img src=""&gt;
+
+&lt;figcaption&gt;Caption&lt;/figcaption&gt;</code></pre>
+         <h2 class="title">Links</h2>
+         <a>This is a link. If you click me, you'll just get transported back here.</a>
+         <pre><code class="language-html">&lt;a href=""&gt;Link&lt;/a&gt;</code></pre>
+         <h2 class="title">Buttons</h2>
+         <h4 class="subtitle">Default button</h4>
+         <button>Infinite joy!</button>
+         <pre><code class="language-html">&lt;button&gt;Button&lt;/button&gt;</code></pre>
+         <h4 class="subtitle">.borderChange</h4>
+         <button class="borderChange">Infinite joy!</button>
+         <pre><code class="language-html">&lt;button class="borderChange"&gt;Secondary button&lt;/button&gt;</code></pre>
+         <h4 class="subtitle">.btnLift</h4>
+         <button class="btnLift">Infinite joy!</button>
+         <pre><code class="language-html">&lt;button class="btnLift"&gt;Large button&lt;/button&gt;</code></pre>
+         <h2 class="title">Radio buttons</h2>
+         <div><input id="sensibly" name="choose" type="radio" /> <label for="sensibly">Choose sensibly</label></div>
+         <div><input id="judiciously" checked="checked" name="choose" type="radio" /> <label for="judiciously">Choose judiciously</label></div>
+         <div><input id="wisely" name="choose" type="radio" /> <label for="wisely">Choose wisely</label></div>
+         <div><input id="carefully" name="choose" type="radio" /> <label for="carefully">Choose carefully</label></div>
+         <pre><code class="language-html">&lt;div&gt;
+    &lt;input type="radio" name="radio-button" id="option1"&gt;
+    &lt;label for="option1"&gt;Radio button 1&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+    &lt;input type="radio" name="radio-button" id="option2"&gt;
+    &lt;label for="option2"&gt;Radio button 2&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+    &lt;input type="radio" name="radio-button" id="option3"&gt;
+    &lt;label for="option3"&gt;Radio button 3&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+    &lt;input type="radio" name="radio-button" id="option4"&gt;
+    &lt;label for="option4"&gt;Radio button 4&lt;/label&gt;
+&lt;/div&gt;</code></pre>
+         <h2 class="title">Checkboxes</h2>
+         <div><input id="don't" checked="checked" type="checkbox" /> <label for="don't">Don't forget me!</label></div>
+         <div><input id="me" type="checkbox" /> <label for="me">Me too!</label></div>
+         <pre><code class="language-html">&lt;div&gt;
+    &lt;input type="checkbox" checked&gt;
+    &lt;label&gt;Checkbox 1&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+    &lt;input type="checkbox"&gt;
+    &lt;label&gt;Checkbox 2&lt;/label&gt;
+&lt;/div&gt;</code></pre>
+         <h2 class="input">Lists</h2>
+         <h4 class="subtitle">An ordered list</h4>
+         <ol>
+            <li>We find the bug</li>
+            <li>We fix the bug</li>
+            <li>Now there are 2 bugs</li>
+            <li>Now there are 3 bugs</li>
+         </ol>
+         <pre><code class="language-html">&lt;ol&gt;
+    &lt;li&gt;Ordered list item 1&lt;/li&gt;
+    &lt;li&gt;Ordered list item 2&lt;/li&gt;
+    &lt;li&gt;Ordered list item 3&lt;/li&gt;
+    &lt;li&gt;Ordered list item 4&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+         <h4 class="subtitle">An unordered list</h4>
+         <ul>
+            <li>Fix the 5 new bugs above</li>
+            <li>Take a nap</li>
+            <li>Dream about fixing the unevitable bugs that will soon come</li>
+            <li>Repeat</li>
+         </ul>
+         <pre><code class="language-html">&lt;ul&gt;
+    &lt;li&gt;Unordered list item 1&lt;/li&gt;
+    &lt;li&gt;Unordered list item 2&lt;/li&gt;
+    &lt;li&gt;Unordered list item 3&lt;/li&gt;
+    &lt;li&gt;Unordered list item 4&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+         <h2 class="title">Input</h2>
+         <h4 class="subtitle">A default input box</h4>
+         <input type="text" placeholder="What are you dreams?" />
+         <pre><code class="language-html">&lt;input type="text" placeholder="Normal input box"&gt;</code></pre>
+         <h4 class="subtitle">A readonly input box</h4>
+         <input readonly="readonly" type="text" placeholder="Reading this will make your day!" />
+         <pre><code class="language-html">&lt;input type="text" placeholder="Readonly input box" readonly&gt;</code></pre>
+         <h4 class="subtitle">A disabled input box</h4>
+         <input disabled="disabled" type="text" placeholder="Aw you can't type here!" />
+         <pre><code class="language-html">&lt;input type="text" placeholder="Disabled input box" disabled&gt;</code></pre>
+         <h4 class="subtitle">A textarea</h4>
+         <textarea placeholder="More space to type here."></textarea>
+         <pre><code class="language-html">&lt;textarea placeholder="Textarea"&gt;&lt;/textarea&gt;</code></pre>
+         <h2 class="title">Code</h2>
+         <h4 class="subtitle">Inline code</h4>
+         <p>The following will output <code>World hello!</code> in <code>LOLCODE</code>!</p>
+         <pre><code class="language-html">&lt;p&gt;The following is &lt;code&gt;inline code&lt;/code&gt;&lt;/p&gt;</code></pre>
+         <h4 class="subtitle">Code blocks</h4>
+         <pre><code>VISIBLE "World hello!"</code></pre>
+         <pre><code class="language-html">&lt;pre&gt;
+    &lt;code&gt;Code block&lt;/code&gt;
+&lt;/pre&gt;</code></pre>
+         <h4 class="subtitle">Keyboard input</h4>
+         <p><kbd>cmd-z</kbd> / <kbd>ctrl-z</kbd> are life savers!</p>
+         <pre><code class="language-html">&lt;p&gt;&lt;kbd&gt;Keyboard shortcut&lt;/kbd&gt; are keyboard inputs&lt;/p&gt;</code></pre>
+         <h2 class="title">Shapes</h2>
+         <h4 class="subtitle">Square</h4>
+         <div class="square">&nbsp;</div>
+         <pre><code class="language-html">&lt;div class="square"&gt;&lt;/div&gt;</code></pre>
+         <h4 class="subtitle">Circle</h4>
+         <div class="circle">&nbsp;</div>
+         <pre><code class="language-html">&lt;div class="circle"&gt;&lt;/div&gt;</code></pre>
+         <h4 class="subtitle">Triangle</h4>
+         <div class="triangle">&nbsp;</div>
+         <pre><code class="language-html">&lt;div class="triangle"&gt;&lt;/div&gt;</code></pre>
+         <h2 class="title">Cards</h2>
+         <h4 class="subtitle">Default card</h4>
+         <div class="card">&nbsp;</div>
+         <pre><code class="language-html">&lt;div class="card"&gt;&lt;/div&gt;</code></pre>
+         <h4 class="subtitle">Rectangle card</h4>
+         <div class="card rect">&nbsp;</div>
+         <pre><code class="language-html">&lt;div class="card rect"&gt;&lt;/div&gt;</code></pre>
+         <h2 class="title">Horizontal rules</h2>
+         <hr />
+         <pre><code class="language-html">&lt;hr&gt;</code></pre>
+         <h2 class="title">Tables</h2>
+         <table>
+            <tbody>
+               <tr>
+                  <th>Who are we?</th>
+                  <th>What do we say?</th>
+                  <th>What is the meaning of life?</th>
+               </tr>
+               <tr>
+                  <td>The knights who say...</td>
+                  <td>"Ni!"</td>
+                  <td>Chocolate</td>
+               </tr>
+               <tr>
+                  <td>The knights who say...</td>
+                  <td>"Ekke Ekke Ekke Ekke Ptang Zoo Boing!"</td>
+                  <td>&pi;</td>
+               </tr>
+               <tr>
+                  <td>The knights who until recently said...</td>
+                  <td>"Ni!"</td>
+                  <td>&infin;</td>
+               </tr>
+            </tbody>
+         </table>
+         <pre><code class="language-html">&lt;table&gt;	
+  &lt;tr&gt;
+    &lt;th&gt;Table header 1&lt;/th&gt;
+    &lt;th&gt;Table header 2&lt;/th&gt;
+    &lt;th&gt;Table header 3&lt;/th&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td&gt;Table data 1&lt;/td&gt;
+    &lt;td&gt;Table data 2&lt;/td&gt;
+    &lt;td&gt;Table data 3&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+         <h2 class="title">Highlight</h2>
+         <p>Highlight/select me! Lorum ipsum dolor...</p>
+      </div>
+      <footer>
+         <p>&copy; 2021 <a href="https://bookie0.repl.co" target="_blank">Bookie0</a></p>
+      </footer>
+   </body>
+</html>
